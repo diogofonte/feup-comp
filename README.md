@@ -1,1 +1,1 @@
-# feup-comp
+# Compilers - C - FEUP
