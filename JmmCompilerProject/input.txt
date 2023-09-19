@@ -1,0 +1,21 @@
+import io;
+
+class A {
+    int a;
+
+    public int x(){
+        a = 10;
+        io.print(a);
+        return a;
+    }
+
+    public static void main(String[] args){
+     int c;
+     int x;
+
+     io.println(2+4+2);
+     c = 10;
+
+
+    }
+}

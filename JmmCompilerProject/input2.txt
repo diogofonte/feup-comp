@@ -1,0 +1,122 @@
+import io.comp.library;
+import List;
+import UltraFac;
+import thing;
+
+class Fac extends UltraFac {
+
+    int test;
+    boolean question;
+    String hope;
+    int[] another;
+    Thing thingie;
+    List listie;
+    Fac brop;
+
+    public int computeFac(int num, Thing thingie1){
+         int num_aux;
+         int a;
+         int b;
+         int c;
+         int[] z;
+         boolean testi;
+         A athis;
+         boolean testA;
+
+        if (num <= z[8])
+            num_aux = 1267;
+
+        else
+            num_aux = num * (this.computeFac (num-1)); /*
+            comment*/
+
+        this.do();
+
+        testi = true;
+        testi = false;
+        testi= testA;
+
+        athis = this;
+        a= b+z[2]*2;
+
+        while (a > test) {
+                }
+
+
+        return num_aux + a + 1;
+    }
+
+      public boolean testFunction(int num, boolean something, int[] somethingElse){
+            int num_aux;
+            int a;
+            int b;
+            int c;
+            int z;
+            int [] x;
+            int[] xy;
+            int d;
+            boolean xx;
+
+            while(num>x[2] || num < x[2] && x)
+            if (num <= x[2])
+                while(a>b)
+                    num_aux = 1;
+
+            else
+                num_aux = num * (this.computeFac (num-1)); /*
+                comment*/
+
+           xy[b] = true;
+           x=xy;
+           a=1;
+           b=xy[a];
+           c=3;
+           d=20;
+           z=5;
+           xytyty=8;
+
+            a=b;
+            c=x;
+            x=xy;
+
+            a= xy[b]+c+d;
+
+            return true;
+        }
+
+        public MethodsAndFields getField3(){
+
+        		return field3;
+        	}
+
+         public int foo() {
+                int [] a;
+                int [] c;
+                //a = 0;
+                int b;
+                //int z;
+                b=a[19]+1;
+                b=a[19]+2;
+
+                z=2;
+
+                //return b+z;
+                return c[b];
+            }
+
+
+    public int fool() {
+        int a;
+        a = 0;
+
+        return a[10];
+    }
+    public static void main(String[] args){
+
+        List listex;
+
+        listex = this;
+        io.println(new Fac().computeFac(10)); //test
+
+    }
+}

@@ -1,0 +1,46 @@
+Simple {
+  .construct Simple().V {
+    invokespecial(this, "<init>").V;
+  }
+
+  .method public add(a.i32, b.i32).i32 {
+    c.i32 :=.i32 $1.a.i32 +.i32 $2.b.i32;
+    ret.i32 c.i32;
+  }
+
+  .method public sub(a.i32, b.i32).i32 {
+    c.i32 :=.i32 $1.a.i32 -.i32 $2.b.i32;
+    ret.i32 c.i32;
+  }
+
+  .method public mult(a.i32, b.i32).i32 {
+    c.i32 :=.i32 $1.a.i32 *.i32 $2.b.i32;
+    ret.i32 c.i32;
+  }
+
+  .method public div(a.i32, b.i32).i32 {
+    c.i32 :=.i32 $1.a.i32 /.i32 $2.b.i32;
+    ret.i32 c.i32;
+  }
+
+  .method public static main(args.array.String).V {
+    a.i32 :=.i32 10.i32;
+    b.i32 :=.i32 5.i32;
+    temp_2.Simple :=.Simple new(Simple).Simple;
+    invokespecial(temp_2.Simple,"<init>").V;
+    s.Simple :=.Simple temp_2.Simple;
+    temp_3.i32 :=.i32 invokevirtual(s.Simple, "add", a.i32, b.i32).i32;
+    c.i32 :=.i32 temp_3.i32;
+    invokestatic(io, "println", c.i32).V;
+    temp_4.i32 :=.i32 invokevirtual(s.Simple, "sub", a.i32, b.i32).i32;
+    c.i32 :=.i32 temp_4.i32;
+    invokestatic(io, "println", c.i32).V;
+    temp_5.i32 :=.i32 invokevirtual(s.Simple, "mult", a.i32, b.i32).i32;
+    c.i32 :=.i32 temp_5.i32;
+    invokestatic(io, "println", c.i32).V;
+    temp_6.i32 :=.i32 invokevirtual(s.Simple, "div", a.i32, b.i32).i32;
+    c.i32 :=.i32 temp_6.i32;
+    invokestatic(io, "println", c.i32).V;
+    ret.V;
+  }
+}

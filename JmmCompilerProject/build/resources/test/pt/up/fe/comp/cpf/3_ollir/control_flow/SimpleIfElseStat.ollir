@@ -1,0 +1,18 @@
+import ioPlus;
+SimpleIfElseStat extends Object {
+
+.method public func(a.i32, b.i32).i32 {
+    tmp0.bool :=.bool a.i32 <.bool b.i32;
+    if(tmp0.bool) goto if_then_0;
+        result.i32 :=.i32 b.i32;
+        goto if_end_0;
+    if_then_0:
+        result.i32 :=.i32 a.i32;
+    if_end_0:
+    ret.i32 result.i32;
+}
+
+.construct SimpleIfElseStat().V {
+    invokespecial(this, "").V;
+}
+}

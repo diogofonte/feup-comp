@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pt.up.fe.comp.cpf.Cpf3_Ollir" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-28T15:09:04" hostname="MacBook-Pro-13-de-Diogo.local" time="0.322">
+  <properties/>
+  <testcase name="section3_ControlFlow_If_Simple_Single_goto" classname="pt.up.fe.comp.cpf.Cpf3_Ollir" time="0.322"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

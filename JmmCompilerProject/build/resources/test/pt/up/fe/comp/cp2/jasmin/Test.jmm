@@ -1,0 +1,12 @@
+import io;
+
+class Test {
+    public int compFac(int num){
+       return num;
+    }
+
+    public static void main(String[] args){
+        int a;
+        a = io.println(new Test().compFac(10));
+    }
+}

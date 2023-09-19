@@ -1,0 +1,28 @@
+class CompileAssignment {
+
+    public static void main(String[] args) {
+
+    }
+
+    public CompileAssignment ola() {
+        CompileAssignment ass;
+        ass = new CompileAssignment();
+        ass.ola();
+        return ass;
+    }
+
+    public int foo() {
+        int a;
+        int b;
+        int c;
+        int d;
+
+        a = 1;
+        b = 2;
+        c = a + b;
+        d = c + 2;
+
+
+        return c + d;
+    }
+}

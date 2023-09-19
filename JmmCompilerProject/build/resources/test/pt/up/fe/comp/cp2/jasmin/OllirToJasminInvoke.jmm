@@ -1,0 +1,12 @@
+import io;
+
+class OllirToJasminInvoke {
+
+    public static void main(String[] args) {
+        OllirToJasminInvoke test;
+        a = 1;
+
+        test = new OllirToJasminInvoke();
+    }
+
+}
