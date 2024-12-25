@@ -22,7 +22,6 @@ Project Notes:
 
     As a result, the Jasmin code doesn't receive the proper code and doesn't identify the iinc because of that.
   
-  - We believe we deserve this grade because we put in a lot of effort and dedication in this project and we accomplished an overall very positive result.
 
     
 
